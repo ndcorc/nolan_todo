@@ -1,0 +1,22 @@
+name: todo_app
+description: todo app using riverpod
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_hooks: ^0.18.1
+  hooks_riverpod: ^1.0.0
+  shared_preferences: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
